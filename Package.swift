@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "abseil",
-            url: "https://github.com/ncooke3/abseil-cpp-SwiftPM/releases/releases/download/0.1/abseil.zip",
+            url: "https://github.com/ncooke3/abseil-cpp-SwiftPM/releases/download/0.1/abseil.zip",
             checksum: "76b70187a4ac02808ca64cc20e3762c691a3258069e25d0548424fdc411c85ab"
         ),
 //        .testTarget(
