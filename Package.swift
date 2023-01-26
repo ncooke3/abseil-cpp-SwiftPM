@@ -14,7 +14,7 @@ let package = Package(
         .binaryTarget(
             name: "abseil",
             url: "https://github.com/ncooke3/abseil-cpp-SwiftPM/releases/download/\(version)/abseil.zip",
-            checksum: "76b70187a4ac02808ca64cc20e3762c691a3258069e25d0548424fdc411c85ab"
+            checksum: "e5c00848c14efe5316b0d7f51f78ec56f8ee7bd8f79b84e3ff399af1a6c3063e"
         ),
         .testTarget(
           name: "build-test",
