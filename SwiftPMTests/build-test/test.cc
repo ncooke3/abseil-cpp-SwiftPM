@@ -13,39 +13,40 @@
 // limitations under the License.
 
 // absl imports from Firestore and gRPC
-  
-#include "absl/algorithm/container.h"
-#include "absl/base/attributes.h"
-#include "absl/base/call_once.h"
-#include "absl/base/casts.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/endian.h"
-#include "absl/base/internal/unaligned_access.h"
-#include "absl/base/macros.h"
-#include "absl/base/optimization.h"
-#include "absl/base/port.h"
-#include "absl/container/flat_hash_map.h"
-#include "absl/container/inlined_vector.h"
-#include "absl/memory/memory.h"
-#include "absl/meta/type_traits.h"
-#include "absl/strings/ascii.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/match.h"
-#include "absl/strings/numbers.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_format.h"
-#include "absl/strings/str_join.h"
-#include "absl/strings/str_replace.h"
-#include "absl/strings/str_split.h"
-#include "absl/strings/string_view.h"
-#include "absl/strings/strip.h"
-#include "absl/strings/substitute.h"
-#include "absl/synchronization/mutex.h"
-#include "absl/time/clock.h"
-#include "absl/time/time.h"
-#include "absl/types/any.h"
-#include "absl/types/optional.h"
-#include "absl/types/variant.h"
+
+// ncooke3: Had to change `absl` to `abseil`.
+#include <abseil/algorithm/container.h>
+#include <abseil/base/attributes.h>
+#include <abseil/base/call_once.h>
+#include <abseil/base/casts.h>
+#include <abseil/base/config.h>
+#include <abseil/base/internal/endian.h>
+#include <abseil/base/internal/unaligned_access.h>
+#include <abseil/base/macros.h>
+#include <abseil/base/optimization.h>
+#include <abseil/base/port.h>
+#include <abseil/container/flat_hash_map.h>
+#include <abseil/container/inlined_vector.h>
+#include <abseil/memory/memory.h>
+#include <abseil/meta/type_traits.h>
+#include <abseil/strings/ascii.h>
+#include <abseil/strings/escaping.h>
+#include <abseil/strings/match.h>
+#include <abseil/strings/numbers.h>
+#include <abseil/strings/str_cat.h>
+#include <abseil/strings/str_format.h>
+#include <abseil/strings/str_join.h>
+#include <abseil/strings/str_replace.h>
+#include <abseil/strings/str_split.h>
+#include <abseil/strings/string_view.h>
+#include <abseil/strings/strip.h>
+#include <abseil/strings/substitute.h>
+#include <abseil/synchronization/mutex.h>
+#include <abseil/time/clock.h>
+#include <abseil/time/time.h>
+#include <abseil/types/any.h>
+#include <abseil/types/optional.h>
+#include <abseil/types/variant.h>
 
 // Test for duplicate `_main` symbol.
 int main(int argc, char** argv) {}
